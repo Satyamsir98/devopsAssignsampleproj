@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>Net 7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Migrations\wwwroot\css\site.css" />
+    <Content Include="Migrations\wwwroot\favicon.ico" />
+    <Content Include="Migrations\wwwroot\js\bookList.js" />
+    <Content Include="Migrations\wwwroot\js\site.js" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="Migrations\wwwroot\lib\bootstrap\LICENSE" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Include="Migrations\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="Migrations\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Include="Migrations\wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0-preview1.19506.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0-preview1-19509-03" />
+  </ItemGroup>
+
+</Project>
